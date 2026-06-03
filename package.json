@@ -1,0 +1,35 @@
+{
+  "name": "@tanglei168/t-skills",
+  "version": "0.1.0",
+  "description": "T-skills engineering skills for Claude Code, Codex, Pi, and compatible coding agents.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanglei168/T-skills.git"
+  },
+  "homepage": "https://github.com/tanglei168/T-skills#readme",
+  "keywords": [
+    "pi-package",
+    "agent-skills",
+    "t-skills",
+    "claude-code",
+    "codex"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "rules",
+    "scripts",
+    "skills",
+    "!**/__pycache__/**",
+    "!**/*.pyc"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
