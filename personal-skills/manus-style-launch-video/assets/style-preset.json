@@ -1,12 +1,12 @@
 {
-  "id": "manus-muse-reference-v2-1",
-  "version": "2.1.0",
-  "purpose": "Muse as primary reference, Skillry as secondary; accurate soundtrack source remains pending.",
+  "id": "manus-original-launch-v2-2",
+  "version": "2.2.0",
+  "purpose": "Minimal product-launch visuals with an original continuous 122 BPM score; current user direction supersedes old catalog music.",
   "canvas": {
     "width": 1920,
     "height": 1080,
     "fps": 30,
-    "durationSeconds": 90
+    "durationSeconds": 110
   },
   "colors": {
     "light": "#f6f6f6",
@@ -94,8 +94,8 @@
       7
     ],
     "reveal": [
-      3,
-      5
+      5,
+      7
     ],
     "ending": [
       5,
@@ -103,7 +103,7 @@
     ]
   },
   "music": {
-    "direction": "Reference-specific: Muse primary, Skillry secondary. Genre label alone is not a match.",
+    "direction": "Original polished electronic pop with subtle house; bright, warm, restrained. One motif, six arranged sections.",
     "searchBpmRange": [
       110,
       130
@@ -117,19 +117,54 @@
       "catalog": "https://mixkit.co/free-stock-music/tech-house/",
       "role": "Historical Mole material, no longer the default matching reference."
     },
-    "matchingMode": "exact-source-pending",
+    "matchingMode": "original-prompt",
     "primaryReference": "Skillry Demo 1 / Muse",
     "secondaryReference": "Skillry Demo 3 / Skillry",
-    "tempoPolicy": "Preserve the acquired original music; align picture to measured beats rather than force a 120 BPM grid.",
+    "tempoPolicy": "Maintain 122 BPM; picture follows the composed beat ledger. No tempo ramp or stock-track substitution.",
     "revealDipCandidateSeconds": [
-      2,
-      4
+      7,
+      7
     ],
     "loudnessRangeReferenceLU": {
       "Muse": 4.9,
       "Skillry": 5.3,
       "note": "Measurements of complete mixes, not mastering requirements."
-    }
+    },
+    "bpm": 122,
+    "timeSignature": "4/4",
+    "prompt": "assets/original-launch-score-prompt.txt",
+    "sections": [
+      {
+        "start": 0,
+        "end": 8,
+        "role": "sparse opening"
+      },
+      {
+        "start": 8,
+        "end": 54,
+        "role": "steady groove"
+      },
+      {
+        "start": 54,
+        "end": 80,
+        "role": "warmer layered build"
+      },
+      {
+        "start": 80,
+        "end": 87,
+        "role": "anticipation"
+      },
+      {
+        "start": 87,
+        "end": 104,
+        "role": "same-theme full reveal"
+      },
+      {
+        "start": 104,
+        "end": 110,
+        "role": "cadence and tail"
+      }
+    ]
   },
   "brandAssetsPolicy": "Use official brand graphics; planets and landscapes are optional product-specific choices."
 }

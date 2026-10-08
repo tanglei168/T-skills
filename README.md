@@ -54,7 +54,7 @@ Install this optional skill for Codex:
 npx skills add https://github.com/tanglei168/T-skills/tree/main/personal-skills/family-scrapbook-video --skill family-scrapbook-video -a codex -g -y
 ```
 
-[Manus 风格产品发布片](personal-skills/manus-style-launch-video/SKILL.md) (v2.1.0) turns product facts and real interfaces into an editable HyperFrames project and MP4. It includes English copy and UI checks, continuous music phrasing, Muse/Skillry reference comparisons, and helpers for timeline validation, local rendering, and soundtrack replacement. This is an independently authored workflow; third-party music and machine-specific runtime paths are excluded.
+[Manus 风格产品发布片](personal-skills/manus-style-launch-video/SKILL.md) (v2.2.0) turns product facts and real interfaces into an editable HyperFrames project and MP4. It includes English UI checks, simulated pointer gestures, an original 122 BPM / 110-second soundtrack prompt and local composition source, continuous music phrasing, and helpers for validation, rendering, and soundtrack replacement. This is an independently authored workflow; third-party music and machine-specific runtime paths are excluded.
 
 Install this optional skill for Codex:
 

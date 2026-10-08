@@ -25,5 +25,5 @@ for flag,key in [(a.chrome,'PRODUCER_HEADLESS_SHELL_PATH'),(a.ffmpeg,'HYPERFRAME
 cli=shutil.which(a.cli) or str(Path(a.cli).resolve())
 out=(a.output or project/'renders'/'launch-1080p.mp4').resolve()
 out.parent.mkdir(parents=True,exist_ok=True)
-subprocess.run([cli,'render',str(project),'--quality',a.quality,'--workers',str(a.workers),'--strict','--output',str(out)],env=env,check=True)
+subprocess.run([cli,'render',str(project),'--quality',a.quality,'--workers',str(a.workers),'--strict-all','--output',str(out)],env=env,check=True)
 print(out)
