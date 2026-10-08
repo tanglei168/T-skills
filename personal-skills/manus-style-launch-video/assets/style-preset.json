@@ -1,0 +1,135 @@
+{
+  "id": "manus-muse-reference-v2-1",
+  "version": "2.1.0",
+  "purpose": "Muse as primary reference, Skillry as secondary; accurate soundtrack source remains pending.",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSeconds": 90
+  },
+  "colors": {
+    "light": "#f6f6f6",
+    "dark": "#0c1119",
+    "text": "#1c2024",
+    "muted": "#5a6067",
+    "accentExample": "#456f97",
+    "accentPolicy": "Use the product brand; the example accent belongs to the Mole case.",
+    "secondaryReferenceLight": "#f6f3ec",
+    "samplingNote": "Approximate JPEG frame samples; not original source CSS."
+  },
+  "fonts": {
+    "english": "DM Sans",
+    "chinese": "Noto Sans SC",
+    "weights": [
+      400,
+      700
+    ],
+    "policy": "Prefer existing brand fonts; freeze files and retain licenses."
+  },
+  "typeScale1080p": {
+    "display": 117,
+    "brand": 150,
+    "chapter": 72,
+    "uiHeading": 40,
+    "uiCaption": 29,
+    "cardHeading": 32,
+    "cardBody": 24,
+    "endTagline": 44,
+    "annotation": 20
+  },
+  "layout": {
+    "safeInsetXRatio": 0.06,
+    "safeInsetYRatio": 0.05,
+    "uiWidthRatio": 0.68,
+    "uiRadius": 25,
+    "captionRadius": 50,
+    "chapterVisibleRows": 3,
+    "chapterRowHeight": 108
+  },
+  "motion": {
+    "entranceSeconds": [
+      0.35,
+      0.65
+    ],
+    "cameraSeconds": [
+      0.55,
+      0.75
+    ],
+    "focusScale": [
+      1.35,
+      1.75
+    ],
+    "holdSeconds": [
+      1,
+      2
+    ],
+    "entranceEase": "power3.out",
+    "cameraEase": "power3.inOut",
+    "seekSafe": true
+  },
+  "sceneSeconds": {
+    "opening": [
+      4,
+      6
+    ],
+    "title": [
+      4,
+      6
+    ],
+    "overview": [
+      3,
+      5
+    ],
+    "chapter": [
+      1.5,
+      2.5
+    ],
+    "uiDemo": [
+      7,
+      11
+    ],
+    "value": [
+      5,
+      7
+    ],
+    "reveal": [
+      3,
+      5
+    ],
+    "ending": [
+      5,
+      7
+    ]
+  },
+  "music": {
+    "direction": "Reference-specific: Muse primary, Skillry secondary. Genre label alone is not a match.",
+    "searchBpmRange": [
+      110,
+      130
+    ],
+    "preferContinuousPhrases": true,
+    "sfxPolicy": "Sparse accents for specific actions; do not add one to every chapter.",
+    "masterPolicy": "Measure first, preserve useful section contrast, verify the encoded result.",
+    "referenceTrack": {
+      "title": "Deep Urban",
+      "artist": "Eugenio Mininni",
+      "catalog": "https://mixkit.co/free-stock-music/tech-house/",
+      "role": "Historical Mole material, no longer the default matching reference."
+    },
+    "matchingMode": "exact-source-pending",
+    "primaryReference": "Skillry Demo 1 / Muse",
+    "secondaryReference": "Skillry Demo 3 / Skillry",
+    "tempoPolicy": "Preserve the acquired original music; align picture to measured beats rather than force a 120 BPM grid.",
+    "revealDipCandidateSeconds": [
+      2,
+      4
+    ],
+    "loudnessRangeReferenceLU": {
+      "Muse": 4.9,
+      "Skillry": 5.3,
+      "note": "Measurements of complete mixes, not mastering requirements."
+    }
+  },
+  "brandAssetsPolicy": "Use official brand graphics; planets and landscapes are optional product-specific choices."
+}

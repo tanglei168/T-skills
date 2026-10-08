@@ -44,7 +44,7 @@ npx skills add tanglei168/T-skills -a codex -g -y
 npx skills update -g -y
 ```
 
-## Personal video skill
+## Personal video skills
 
 [家庭手账记录片](personal-skills/family-scrapbook-video/SKILL.md) preserves the approved family video style: clear activity themes, complete original framing, scrapbook cards and doodles, cheerful music, and full children’s greetings and birthday moments. The directory contains reusable instructions, design assets, and a scaffold helper; family footage and music are kept locally.
 
@@ -54,7 +54,15 @@ Install this optional skill for Codex:
 npx skills add https://github.com/tanglei168/T-skills/tree/main/personal-skills/family-scrapbook-video --skill family-scrapbook-video -a codex -g -y
 ```
 
-`metadata.internal: true` keeps it out of the default eight-skill engineering install; selecting it by name includes it. It is maintained separately from the engineering release ZIP.
+[Manus 风格产品发布片](personal-skills/manus-style-launch-video/SKILL.md) (v2.1.0) turns product facts and real interfaces into an editable HyperFrames project and MP4. It includes English copy and UI checks, continuous music phrasing, Muse/Skillry reference comparisons, and helpers for timeline validation, local rendering, and soundtrack replacement. This is an independently authored workflow; third-party music and machine-specific runtime paths are excluded.
+
+Install this optional skill for Codex:
+
+```bash
+npx skills add https://github.com/tanglei168/T-skills/tree/main/personal-skills/manus-style-launch-video --skill manus-style-launch-video -a codex -g -y
+```
+
+`metadata.internal: true` keeps these optional skills out of the default eight-skill engineering install; selecting one by name includes it. They are maintained separately from the engineering release ZIP.
 
 ## Credits
 
