@@ -44,6 +44,18 @@ npx skills add tanglei168/T-skills -a codex -g -y
 npx skills update -g -y
 ```
 
+## Personal video skill
+
+[家庭手账记录片](personal-skills/family-scrapbook-video/SKILL.md) preserves the approved family video style: clear activity themes, complete original framing, scrapbook cards and doodles, cheerful music, and full children’s greetings and birthday moments. The directory contains reusable instructions, design assets, and a scaffold helper; family footage and music are kept locally.
+
+Install this optional skill for Codex:
+
+```bash
+npx skills add https://github.com/tanglei168/T-skills/tree/main/personal-skills/family-scrapbook-video --skill family-scrapbook-video -a codex -g -y
+```
+
+`metadata.internal: true` keeps it out of the default eight-skill engineering install; selecting it by name includes it. It is maintained separately from the engineering release ZIP.
+
 ## Credits
 
 T-skills is derived from [Waza](https://github.com/tw93/Waza) by Tw93, used under the MIT License. The skill set, validation, codegen, and packaging machinery originate there; see `LICENSE` for attribution. Thanks to the original author.

@@ -1,0 +1,56 @@
+*{box-sizing:border-box}body{margin:0}#root{width:100%;height:100%;position:relative;overflow:hidden;background:#FFF5DF;font-family:var(--family-font, "PingFang SC", "Microsoft YaHei", sans-serif);color:#263A38}
+#root>.clip{position:absolute;inset:0}
+.scene-root{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;background:#FFF5DF;color:#263A38;font-family:var(--family-font, "PingFang SC", "Microsoft YaHei", sans-serif)}
+.topline{position:absolute;left:54px;right:54px;top:20px;height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.chapter-title{font-size:52px;font-weight:900;line-height:1.2;letter-spacing:2px;white-space:nowrap}
+.chapter-number{font-size:32px;font-weight:700;background:#263A38;color:#FFF5DF;padding:10px 23px;border-radius:30px;white-space:nowrap}
+.media{position:absolute;left:54px;top:120px;width:972px;height:1728px;object-fit:contain;background:transparent}
+.caption{position:absolute;left:54px;right:54px;top:1855px;height:65px;display:flex;justify-content:center;align-items:center;font-size:42px;font-weight:700;letter-spacing:1px;white-space:nowrap}
+.caption span{display:block;padding:8px 24px;background:#FFF5DF;border-radius:18px;max-width:960px}
+.wide-shell{position:absolute;inset:0;pointer-events:none}
+.wide-label{position:absolute;top:365px;left:70px;right:70px;font-size:92px;font-weight:900;text-align:center;letter-spacing:3px;line-height:1.3}
+.wide-tag{position:absolute;top:1390px;left:80px;right:80px;font-size:45px;font-weight:700;text-align:center;letter-spacing:4px}
+.card{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:38px;background:#FBD33F}
+.card .number{font-size:210px;font-weight:900;line-height:1.1;color:#263A38}
+.card .title{font-size:104px;font-weight:900;letter-spacing:5px;text-align:center;line-height:1.25}
+.card .tag{font-size:42px;font-weight:700;letter-spacing:4px;text-align:center}
+.card .rule{width:140px;height:10px;background:#263A38;border-radius:5px}
+.open-name{position:absolute;left:80px;right:80px;top:1480px;display:flex;flex-direction:column;gap:12px;align-items:center}
+.open-name .label{background:#FBD33F;font-size:55px;font-weight:900;padding:10px 30px;border:5px solid #263A38;border-radius:20px}
+.credits{position:absolute;left:80px;right:80px;top:1440px;background:#FFF5DF;text-align:center;font-size:31px;line-height:1.65;padding:26px;border-radius:18px}
+
+/* Revision: illustrated holiday scrapbook. Footage remains uncropped and at original speed. */
+.scene-root{--accent:#FFD84A;background:#FFFBF0;background-image:linear-gradient(#E9E5D666 2px,transparent 2px),linear-gradient(90deg,#E9E5D666 2px,transparent 2px);background-size:48px 48px;color:#233B50}
+.stationery{position:absolute;inset:0;pointer-events:none}
+.paper-edge{position:absolute;left:24px;top:220px;bottom:155px;width:24px;background:radial-gradient(circle at 12px 12px,#D2CCBB 7px,#FFFBF0 8px,transparent 10px) 0 0/24px 120px}
+.frame-paper{position:absolute;left:92px;top:204px;width:896px;height:1568px;background:#fff;border:4px solid #233B50;box-shadow:14px 14px 0 #233B50}
+.tape{position:absolute;width:182px;height:45px;background:var(--accent);border:3px dashed #233B5077;opacity:.95}
+.tape-a{left:65px;top:200px;transform:rotate(-13deg)}.tape-b{right:59px;top:1732px;transform:rotate(-12deg)}
+.side-star{position:absolute;right:11px;top:900px;width:54px;height:54px;transform:rotate(16deg)}
+.notebook-note{position:absolute;left:99px;top:151px;font-size:24px;letter-spacing:6px;font-weight:700}
+.topline{left:80px;right:75px;top:47px;height:90px;gap:10px}
+.chapter-title{font-size:52px;color:#233B50;background:var(--accent);padding:14px 24px;border:4px solid #233B50;border-radius:9px 23px 8px 15px;box-shadow:7px 7px 0 #233B50;letter-spacing:1px}
+.chapter-number{font-size:30px;color:#233B50;background:#fff;border:4px solid #233B50;padding:14px 19px;border-radius:50%;transform:rotate(8deg)}
+.media{left:108px;top:220px;width:864px;height:1536px;object-fit:contain;background:#fff}
+.caption{left:80px;right:80px;top:1795px;height:87px;font-size:40px;color:#233B50}
+.caption span{background:var(--accent);border:4px solid #233B50;border-radius:10px 24px 13px 25px;box-shadow:7px 7px 0 #233B50;padding:10px 26px;position:relative;max-width:890px}
+.caption span:before{content:'✦';margin-right:16px;font-size:35px}
+.wide-label{top:350px;left:145px;right:145px;font-size:88px;letter-spacing:1px;line-height:1.4;padding:16px;background:#FFFBF0;border:4px solid #233B50;border-radius:12px;box-shadow:10px 10px 0 var(--accent);transform:rotate(-2deg)}
+.wide-icon{position:absolute;top:551px;left:460px;width:160px;height:160px;transform:rotate(7deg)}
+.wide-tag{top:1370px;left:145px;right:145px;font-size:43px;letter-spacing:2px;line-height:1.5;color:#233B50}
+.wide-tag:after{content:'';display:block;margin:24px auto;width:330px;height:17px;background:var(--accent);transform:rotate(-3deg);border-radius:50%}
+.card{display:block;background:#FFFBF0!important;background-image:linear-gradient(#D6DBDC55 2px,transparent 2px),linear-gradient(90deg,#D6DBDC55 2px,transparent 2px)!important;background-size:48px 48px!important}
+.card .number{position:absolute;top:110px;left:95px;font-size:140px;line-height:1;color:#233B50;-webkit-text-stroke:3px #233B50;text-shadow:8px 8px 0 var(--accent)}
+.card .number:after{content:var(--chapter-count,'/ 05');font-size:38px;margin-left:20px;-webkit-text-stroke:0;text-shadow:none}
+.card .title{position:absolute;top:1450px;left:90px;right:90px;font-size:98px;letter-spacing:2px;line-height:1.35;color:#233B50;background:var(--accent);border:5px solid #233B50;border-radius:15px 35px 20px 30px;padding:14px 12px;box-shadow:12px 12px 0 #233B50}
+.card .tag{position:absolute;top:1650px;left:100px;right:100px;font-size:43px;letter-spacing:3px;color:#233B50}
+.card .rule{display:none}
+.card-polaroid{position:absolute;left:175px;top:340px;width:730px;height:1030px;background:#fff;border:5px solid #233B50;box-shadow:18px 18px 0 #233B5033;transform:rotate(-5deg);padding:22px 22px 70px}
+.card-polaroid img{width:100%;height:100%;object-fit:contain}
+.card-polaroid:before{content:'';position:absolute;width:270px;height:60px;background:var(--accent);border:3px dashed #233B5077;top:-28px;left:225px;transform:rotate(4deg)}
+.card-back{position:absolute;left:220px;top:354px;width:730px;height:1020px;border:5px solid #233B50;background:var(--accent);transform:rotate(5deg)}
+.card-icon{position:absolute;right:45px;top:1065px;width:240px;height:240px;background:#FFFBF0;border:5px solid #233B50;border-radius:50%;padding:15px;transform:rotate(10deg)}
+.card-sticker{position:absolute;left:60px;top:1280px;padding:10px 24px;background:#fff;border:4px solid #233B50;border-radius:25px;font-size:31px;font-weight:900;transform:rotate(-9deg);box-shadow:6px 6px 0 var(--accent)}
+.card-sun{position:absolute;right:96px;top:110px;width:200px;height:200px}
+.intro-badge{position:absolute;right:28px;top:162px;width:97px;height:97px;z-index:2;background:#FFFBF0;border:4px solid #233B50;border-radius:50%;padding:9px;transform:rotate(10deg)}
+.music-credit{top:1640px!important;left:156px!important;right:156px!important;font-size:23px!important;background:#fff!important}

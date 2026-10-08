@@ -1,0 +1,7 @@
+interface:
+  display_name: "家庭手账记录片"
+  short_description: "沿用已确认的家庭手账视频风格，按主题剪辑并保留原画面与孩子的重要瞬间"
+  default_prompt: "使用 $family-scrapbook-video 剪辑这个文件夹的家庭记录，沿用手账风格，按主题组织，保留完整画面和孩子的重要瞬间。"
+
+policy:
+  allow_implicit_invocation: true
